@@ -1,6 +1,6 @@
 # Detect compiler and LLVM (adjust LLVM_CONFIG path if needed)
 CXX        = c++
-CXXFLAGS   = -std=c++17 -O2 -w   # add -Wall -Wextra later
+CXXFLAGS   = -std=c++17 -O2 -Wall
 CPPFLAGS   = -I./inc $(shell $(LLVM_CONFIG) --cxxflags)
 LDFLAGS    = $(shell $(LLVM_CONFIG) --ldflags)
 LDLIBS     = $(shell $(LLVM_CONFIG) --libs --system-libs)
