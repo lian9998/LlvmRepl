@@ -185,7 +185,7 @@ int main(int argc, char* argv[]) {
             std::cout << "Usage: " << argv[0] << " [options]\n\n";
             std::cout << "Options:\n";
             std::cout << "  -h, --help     Show this help message\n";
-            std::cout << "  -v, --version  Show version information\n";
+            std::cout << "  -s, --stelth   Hide prompt\n";
             return 0;
         }
         if (strcmp(argv[i], "--version") == 0 || strcmp(argv[i], "-v") == 0) {
