@@ -192,7 +192,7 @@ int main(int argc, char* argv[]) {
             printVersion();
             return 0;
         }
-        if (strcmp(argv[i], "--stealth") == 0 || strcmp(argv[i], "-a") == 0) {
+        if (strcmp(argv[i], "--stealth") == 0 || strcmp(argv[i], "-s") == 0) {
             stealth = true;
         }
     }
